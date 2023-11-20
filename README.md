@@ -5,16 +5,22 @@
 - [Developer](#developer)
 - [Libraries Used](#libraries-used)
 - [MobileNetV3 and MobileNetV2 Implementation Using Python and TensorFlow](#mobilenetv3-and-mobilenetv2-implementation-using-python-and-tensorflow)
-  - [Steps Involved](#steps-involved)
+  - [Steps Involved](#steps-involved-tensorflow)
 - [Training MobileNetV3 Using PyTorch](#training-mobilenetv3-using-pytorch)
-  - [Repository Used](#repository-used-1)
-  - [Steps Involved](#steps-involved-1)
+  - [Repository Used](#repository-used-pytorch)
+  - [Steps Involved](#steps-involved-pytorch)
 - [Image Classification Using the Trained MobileNetV3 Model](#image-classification-using-the-trained-mobilenetv3-model)
+- [Training MobileNetV3 Using PyTorch with SGD Optimizer](#training-mobilenetv3-using-pytorch-with-sgd-optimizer)
+  - [Repository Used](#repository-used-sgd)
+  - [Steps Involved](#steps-involved-sgd)
+
 
 ## Introduction
 This project aims to compare the performances of MobileNetV2 and MobileNetV3 architectures using the CIFAR-10 dataset. The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, making it a suitable benchmark for evaluating different neural network architectures.
 
 **Dataset URL:** [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+[Click here to view the code file](https://github.com/ManjuDGRT/AI_Final/blob/main/MobileNetV3_and_MobileNetV2_Implementation_Using_Python_and_TensorFlow.ipynb)
+
 
 ## Developer
 This code is entirely developed by Manjushree Kumaravel.
@@ -46,7 +52,7 @@ The following libraries were used in this project:
 ---
 
 ## MobileNetV3 and MobileNetV2 Implementation Using Python and TensorFlow
-### Steps Involved
+### Steps Involved (TensorFlow)
 1. **Cell 1: Import Necessary Libraries**  
    Importing the required libraries and modules for building and training the MobileNetV3 model using TensorFlow.
 
@@ -72,11 +78,12 @@ The following libraries were used in this project:
 
 ## Training MobileNetV3 Using PyTorch
 
-### Repository Used
+### Repository Used (PyTorch)
 The project utilizes the following repository:
 - **GitHub Repository:** [deeplearning-models](https://github.com/rasbt/deeplearning-models)
   This repository was used for PyTorch-based implementation, containing utility functions, data loading, and model training scripts.
-### Steps Involved
+[Click here to view the code file](https://github.com/ManjuDGRT/AI_Final/blob/main/Training_MobileNetV3_Adam_optimiser.ipynb)
+### Steps Involved in Training MobileNetV3 with Adam Optimizer
 1. **Cell 1: Cloning GitHub Repo and Importing Libraries**  
    Cloning a GitHub repository and importing necessary libraries and modules for training MobileNetV3 using PyTorch.
 
@@ -100,4 +107,32 @@ The project utilizes the following repository:
 This code is entirely developed by Manjushree Kumaravel.
 
 ## Image Classification Using the Trained MobileNetV3 Model
+
 A utility function `predict_image_label` is provided to predict labels for new images using the trained model.
+[Click here to view the code file](https://github.com/ManjuDGRT/AI_Final/blob/main/Training_MobileNetV3_Adam_optimiser.ipynb)
+
+## Training MobileNetV3 Using PyTorch with SGD Optimizer
+
+### Repository Used (SGD)
+The project utilizes the following repository:
+- **GitHub Repository:** [deeplearning-models](https://github.com/rasbt/deeplearning-models)
+  This repository was used for PyTorch-based implementation, containing utility functions, data loading, and model training scripts.
+[Click here to view the code file](https://github.com/ManjuDGRT/AI_Final/blob/main/Training_MobileNetV3_SGD_optimiser_ipynb)
+### Steps Involved in Training MobileNetV3 with SGD Optimizer
+1. **Cell 1: Cloning GitHub Repo and Importing Libraries**  
+   Cloning a GitHub repository and importing necessary libraries and modules for training MobileNetV3 using PyTorch.
+
+2. **Cell 2: Settings**  
+   Setting parameters such as random seed, batch size, number of epochs, and the device for training.
+
+3. **Cell 4: Loading CIFAR 10**  
+   Loading the CIFAR-10 dataset, performing transformations, and checking the dataset structure.
+
+4. **Cell 5: Model**  
+   Loading MobileNetV3 model architecture using PyTorch.
+
+5. **Cell 6: Optimizing the Model Using SGD Optimizer**  
+   Optimizing the model using the SGD optimizer and training the classifier.
+
+6. **Cell 7: Plotting Loss and Accuracy**  
+   Plotting the training loss and accuracy obtained during the training process.
