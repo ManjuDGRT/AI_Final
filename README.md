@@ -14,7 +14,7 @@
 ## Introduction
 This project aims to compare the performances of MobileNetV2 and MobileNetV3 architectures using the CIFAR-10 dataset. The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, making it a suitable benchmark for evaluating different neural network architectures.
 
-**Dataset URL:** [CIFAR-10 Dataset](#)
+**Dataset URL:** [https://www.cs.toronto.edu/~kriz/cifar.html](#)
 
 ## Developer
 This code is entirely developed by Manjushree Kumaravel.
@@ -74,7 +74,7 @@ The following libraries were used in this project:
 
 ### Repository Used
 The project utilizes the following repository:
-- **GitHub Repository:** [deeplearning-models](#)  
+- **GitHub Repository:** [://github.com/rasbt/deeplearning-models ](#)  
   This repository was used for PyTorch-based implementation, containing utility functions, data loading, and model training scripts.
 ### Steps Involved
 1. **Cell 1: Cloning GitHub Repo and Importing Libraries**  
