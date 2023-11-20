@@ -6,13 +6,10 @@
 - [Libraries Used](#libraries-used)
 - [MobileNetV3 and MobileNetV2 Implementation Using Python and TensorFlow](#mobilenetv3-and-mobilenetv2-implementation-using-python-and-tensorflow)
   - [Steps Involved](#steps-involved)
-  - [Repository Used](#repository-used)
 - [Training MobileNetV3 Using PyTorch](#training-mobilenetv3-using-pytorch)
   - [Repository Used](#repository-used-1)
   - [Steps Involved](#steps-involved-1)
--[Developer](#developer)
 - [Image Classification Using the Trained MobileNetV3 Model](#image-classification-using-the-trained-mobilenetv3-model)
- 
 
 ## Introduction
 This project aims to compare the performances of MobileNetV2 and MobileNetV3 architectures using the CIFAR-10 dataset. The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, making it a suitable benchmark for evaluating different neural network architectures.
@@ -29,8 +26,8 @@ The following libraries were used in this project:
 - Matplotlib: Utilized for visualizing the training results.
 - NumPy: Used for numerical computations and handling arrays.
 - TorchVision: Employed for image dataset handling and transformations.
-### For TensorFlow 
 
+### For TensorFlow 
 - `tensorflow` for building and training neural networks.
 - `tensorflow.keras.layers` for defining various layers in the network.
 - `tensorflow.keras.models` for creating the model architecture.
@@ -38,7 +35,6 @@ The following libraries were used in this project:
 - `tensorflow.keras.utils` for data preprocessing and utilities.
 
 ### For PyTorch 
-
 - `torch` and `torchvision` for building and training neural networks using PyTorch.
 - `torch.utils.data` for handling data loaders.
 - Various helper functions imported from the repository:
@@ -72,14 +68,10 @@ The following libraries were used in this project:
 7. **Cell 7: Plot the Results of V2 and V3 Architecture**  
    Visualizing the training and validation accuracy, as well as the loss, for both MobileNetV2 and MobileNetV3 architectures.
 
-### Repository Used
-The project utilizes the following repository:
-- **GitHub Repository:** [deeplearning-models](#)  
-  This repository was used for PyTorch-based implementation, containing utility functions, data loading, and model training scripts.
-
 ---
 
 ## Training MobileNetV3 Using PyTorch
+
 ### Repository Used
 The project utilizes the following repository:
 - **GitHub Repository:** [deeplearning-models](#)  
@@ -109,4 +101,3 @@ This code is entirely developed by Manjushree Kumaravel.
 
 ## Image Classification Using the Trained MobileNetV3 Model
 A utility function `predict_image_label` is provided to predict labels for new images using the trained model.
-
