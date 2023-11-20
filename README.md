@@ -117,7 +117,7 @@ A utility function `predict_image_label` is provided to predict labels for new i
 The project utilizes the following repository:
 - **GitHub Repository:** [deeplearning-models](https://github.com/rasbt/deeplearning-models)
   This repository was used for PyTorch-based implementation, containing utility functions, data loading, and model training scripts.
-[Click here to view the code file](https://github.com/ManjuDGRT/AI_Final/blob/main/Training_MobileNetV3_SGD_optimiser_ipynb)
+[Click here to view the code file](https://github.com/ManjuDGRT/AI_Final/blob/main/Training_MobileNetV3_SGD_optimiser_ipynb.ipynb?short_path=bb414b6)
 ### Steps Involved in Training MobileNetV3 with SGD Optimizer
 1. **Cell 1: Cloning GitHub Repo and Importing Libraries**  
    Cloning a GitHub repository and importing necessary libraries and modules for training MobileNetV3 using PyTorch.
